@@ -1,0 +1,148 @@
+/* style.css
+ * 17/09/2026
+ * DUMAS PHILIPPE Adrien 
+ *Style pour le tp2
+ */
+ 
+ body {
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 1.5em;
+
+
+ }
+
+ header{
+
+    background-color: grey;
+    color:  white;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 2em;
+    margin: 10px;
+    padding: 10px;
+ }
+
+ footer{
+
+    background-color: darkgrey;
+    color:  white;
+    text-align: center;
+    margin: 5px; /*Marge exterieur*/
+    padding: 10px ;
+
+ }
+
+ section{
+    margin : 10px;
+    
+ }
+
+ article{
+    margin: 10px;
+    padding: 10px;
+    border: dotted grey ;
+ }
+
+ p{
+    margin: 10px;
+
+ }
+
+ h1{
+
+    color: red;
+    text-align: center;
+    font-size: 2em;
+    font-variant: small-caps
+ }
+
+ h2 {
+   padding: 10px ;
+   background-color: red;
+   
+   border-left : 50px  solid  black;
+   text-transform: capitalize;
+
+ }
+
+ #info {
+
+   width: 600px;
+   background-color: #a52a2a;
+   color : white;
+   border-radius: 10px; 
+   text-align: center;
+   font-size: 1.2em;
+   line-height: 2em;
+   padding: 10px;
+   margin: auto; /*Cela se mets au centre ( le block) */
+
+
+ }
+
+ .documentation {
+
+   background-color: green;
+   color:white;
+   padding: 10px;
+
+ }
+
+ .documentation a {
+   text-decoration: none;
+   background-color: #006400;
+   padding: 5px;
+   color: #86db21 ;
+
+ }
+
+ .documentation a:hover{
+
+   background-color: #86db21;
+   color: #006400 ;
+ }
+
+ .code {
+   font-family: 'Courier New', Courier, monospace;
+   background-color: rgb(231, 229, 229);
+   border: 1px solid rgb(176, 175, 175);
+   border-radius: 5px; 
+
+ }
+
+pre {
+   padding: 10px;
+   margin: 10px;
+
+}
+
+table {
+   width: 60%;
+   margin: auto;
+   
+}
+
+
+tr {
+  line-height: 2em;
+}
+
+th {
+  background-color: darkblue;
+  color: white;
+  line-height: 3em;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+tr:last-child {
+  color: blue;
+}
